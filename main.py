@@ -1,6 +1,6 @@
 
 
-not_world = list(''.upper())
+not_world = list('капотлмубгдис'.upper())
 yes_world = list(''.upper())
 
 with open('summary.txt') as rus_fl:
@@ -19,4 +19,3 @@ for rus_word in rus_world_db:
                 x = 1
         if x == 0:
             print(f'{rus_word_strip}')
-            break
